@@ -12,3 +12,10 @@
  * "Сообщение номер 4"
  * "Сообщение номер 5"
  */
+
+let numberOfImage = 1
+let timerId = setInterval(() => console.log("Message number " + numberOfImage++), 2000)
+
+setTimeout(() => { 
+    clearInterval(timerId) 
+}, 11000)

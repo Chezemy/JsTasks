@@ -8,3 +8,8 @@
  *
  * 4. Выведите в консоль измененный массив
  */
+
+const myArray = [15, "Some String", null, undefined, []]
+console.log(myArray)
+myArray[2] = "Not null anymore!"
+console.log(myArray)

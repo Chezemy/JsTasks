@@ -6,3 +6,7 @@
  *
  * 3. Выведите значение второй переменной в консоль
  */
+
+const goodTimeOfBeing = "Good Morning"
+const goodTimeOfBeing2 = goodTimeOfBeing.replace("Morning", "Evening")
+console.log(goodTimeOfBeing2)

@@ -4,3 +4,6 @@
  */
 
 console.log(3 || (true && null) || false)
+//          3 or (true and false) or false)
+//          3 or false or false
+//          3, т.к. это первое истинное значение в цепочке операторов or

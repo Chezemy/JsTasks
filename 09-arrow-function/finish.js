@@ -10,3 +10,18 @@
  *
  * 5. Перепишите функцию так, чтобы результат возвращался неявно
  */
+
+
+// Явный возврат значения
+const helloWorld = () => {
+    return "Hello, world"
+}
+
+
+// Невявный возврат значения
+const helloWorld2 = () => "Hello, world"
+
+
+// Вызов функций
+console.log(helloWorld())
+console.log(helloWorld2())

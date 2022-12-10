@@ -12,8 +12,10 @@
 
 //
 
-let myName; //Contains my name
-/*  This is
-    The
-    Commentary
+const a = 4 // Variable with integer value
+
+/*
+This 
+Is
+Comment
 */
